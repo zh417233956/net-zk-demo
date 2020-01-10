@@ -6,12 +6,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\..\share\ZKDemo.cs" />
+    <Compile Include="..\..\share\RedisAndCodisDemoCore.cs" />
     <None Include="..\..\share\log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Mango.CodisHA" Version="2.0.0" />
     <PackageReference Include="Mango.NodisClient" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>

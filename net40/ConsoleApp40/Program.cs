@@ -15,7 +15,10 @@ namespace ConsoleApp40
             var log = log4net.LogManager.GetLogger(typeof(Program));
             log.Info("启动...");
 
-            WebApplication.ZKDemo.Init();
+            //WebApplication.ZKDemo.Init();
+
+            WebApplication.RedisAndCodisDemo.Init(0);
+            WebApplication.RedisAndCodisDemo.GetRedisValue();
 
             log.Info("完成...");
             Console.ReadKey();
