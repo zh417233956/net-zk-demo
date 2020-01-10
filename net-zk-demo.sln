@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29505.145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netcore", "netcore", "{94A6B657-F368-403B-8DDA-08AC49D67923}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net45", "net45", "{3ECBC134-6358-4F48-8C3D-809787FEDB7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net40", "net40", "{950AFF8F-32F0-4839-8B73-C193C7937775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "netcore\ConsoleApp\ConsoleApp.csproj", "{1EFBD45B-6602-47E3-BA88-35508D4E457E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EFBD45B-6602-47E3-BA88-35508D4E457E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFBD45B-6602-47E3-BA88-35508D4E457E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFBD45B-6602-47E3-BA88-35508D4E457E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFBD45B-6602-47E3-BA88-35508D4E457E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EFBD45B-6602-47E3-BA88-35508D4E457E} = {94A6B657-F368-403B-8DDA-08AC49D67923}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67568088-4DF6-4216-9E89-FDD56A9F2725}
+	EndGlobalSection
+EndGlobal
